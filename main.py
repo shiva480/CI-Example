@@ -1,6 +1,6 @@
 import math
 import os
-import datetime
+from datetime import datetime
 
 
 def func1(a, b) -> int:
@@ -9,3 +9,7 @@ def func1(a, b) -> int:
 
 def func2() -> str:
     return os.getcwd()
+
+
+def func3(date):
+    return datetime.strptime(func3, "%H:%M:%S")
