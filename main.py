@@ -1,6 +1,6 @@
 import math
 import os
-from datetime import datetime
+import datetime
 
 
 def func1(a, b) -> int:
@@ -12,4 +12,4 @@ def func2() -> str:
 
 
 def func3(date):
-    return datetime.strptime(func3, "%H:%M:%S")
+    return datetime.datetime.strptime(func3, "%H:%M:%S")
