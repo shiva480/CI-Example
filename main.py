@@ -1,6 +1,6 @@
-import datetime
 import math
 import os
+import datetime
 
 
 def func1(a, b) -> int:
